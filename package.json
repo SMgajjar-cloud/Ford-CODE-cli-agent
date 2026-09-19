@@ -1,0 +1,33 @@
+{
+  "name": "ford-code",
+  "version": "1.0.0",
+  "description": "FORD CODE — Futuristic Senior Autonomous AI Terminal Coding Agent",
+  "type": "module",
+  "bin": {
+    "ford": "./ford.js",
+    "ford-code": "./ford.js"
+  },
+  "main": "./ford.js",
+  "scripts": {
+    "start": "node ./ford.js",
+    "code": "node ./ford.js code",
+    "doctor": "node ./ford.js doctor",
+    "web": "node ./ford.js web"
+  },
+  "keywords": [
+    "ai",
+    "coding-agent",
+    "ford",
+    "cli",
+    "terminal",
+    "developer-tools",
+    "llm",
+    "mcp",
+    "react-loop"
+  ],
+  "author": "Ford Code Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
